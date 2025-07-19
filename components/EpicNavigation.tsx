@@ -28,16 +28,16 @@ const navigationItems = [
     description: 'Your character roster'
   },
   {
-    name: 'Create',
-    href: '/characters/new',
-    icon: Sword,
-    description: 'Forge a new hero'
+    name: 'Features',
+    href: '/features',
+    icon: Sparkles,
+    description: 'Epic tools & systems'
   },
   {
     name: 'Grimoire',
-    href: '/spells',
+    href: '/grimoire',
     icon: ScrollText,
-    description: 'Spell compendium'
+    description: 'Arcane spell compendium'
   },
   {
     name: 'Dice Oracle',

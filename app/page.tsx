@@ -5,8 +5,17 @@ import EpicFeatureCard from '@/components/EpicFeatureCard'
 import HeroSection from '@/components/HeroSection'
 import TestimonialSection from '@/components/TestimonialSection'
 
+type FeatureType = {
+  title: string
+  subtitle: string
+  description: string
+  icon: string
+  rarity: 'epic' | 'legendary' | 'rare' | 'common'
+  details: string[]
+}
+
 export default function Home() {
-  const features = [
+  const features: FeatureType[] = [
     {
       title: "Ancient Wisdom",
       subtitle: "Official D&D 5e Format",

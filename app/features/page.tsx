@@ -374,14 +374,124 @@ export default function FeaturesPage() {
                       <p className="text-sm text-amber-200/60">Real-time party collaboration</p>
                     </div>
                     <div className="space-y-2">
-                      <div className="text-3xl">📱</div>
-                      <h4 className="font-semibold text-amber-300">Mobile App</h4>
-                      <p className="text-sm text-amber-200/60">D&D on the go</p>
+                      <div className="text-3xl">🎲</div>
+                      <h4 className="font-semibold text-amber-300">Dice Roller Apps</h4>
+                      <p className="text-sm text-amber-200/60">Native mobile dice rolling</p>
+                      <div className="mt-2 space-x-2">
+                        <a href="#mobile-apps" className="inline-block">
+                          <div className="bg-green-600 hover:bg-green-700 text-white text-xs px-2 py-1 rounded">
+                            📱 Get Apps
+                          </div>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </CardContent>
               </Card>
             </div>
+
+            {/* Mobile Apps Section */}
+            <div id="mobile-apps" className="mt-16">
+              <div className="text-center mb-8">
+                <h2 className="text-4xl font-bold text-epic mb-4">🎲 D&D Dice Roller Mobile Apps</h2>
+                <p className="text-xl text-amber-200/80 mb-6">Professional native dice rolling apps with advanced D&D features</p>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-8">
+                <Card className="border-2 border-green-400/30 bg-gradient-to-br from-slate-800/70 to-green-900/20 backdrop-blur-sm">
+                  <CardHeader>
+                    <CardTitle className="text-2xl text-green-400 font-serif flex items-center gap-2">
+                      <span>🤖</span>
+                      Android App
+                    </CardTitle>
+                    <p className="text-amber-200/70">Native Kotlin app with advanced rolling engine</p>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-4">
+                      <div className="space-y-2">
+                        <h4 className="font-semibold text-amber-300">⚔️ Advanced Features:</h4>
+                        <ul className="text-sm text-amber-200/80 space-y-1">
+                          <li>• Advantage/Disadvantage with detailed breakdowns</li>
+                          <li>• Exploding dice mechanics</li>
+                          <li>• Complex expression parsing (3d6+2d4-1d8)</li>
+                          <li>• Comprehensive roll history & statistics</li>
+                          <li>• Campaign session summaries</li>
+                          <li>• Spell damage calculators</li>
+                        </ul>
+                      </div>
+                      <div className="pt-4 border-t border-amber-400/20">
+                        <a href="#" className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                          📱 Get on Google Play
+                        </a>
+                        <p className="text-xs text-amber-200/50 mt-2">Coming Soon - Beta Testing Available</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card className="border-2 border-blue-400/30 bg-gradient-to-br from-slate-800/70 to-blue-900/20 backdrop-blur-sm">
+                  <CardHeader>
+                    <CardTitle className="text-2xl text-blue-400 font-serif flex items-center gap-2">
+                      <span>🍎</span>
+                      iOS App
+                    </CardTitle>
+                    <p className="text-amber-200/70">Native Swift app with beautiful animations</p>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-4">
+                      <div className="space-y-2">
+                        <h4 className="font-semibold text-amber-300">✨ Epic Features:</h4>
+                        <ul className="text-sm text-amber-200/80 space-y-1">
+                          <li>• Stunning dice animations & sound effects</li>
+                          <li>• All standard D&D dice types (d4, d6, d8, d10, d12, d20, d100)</li>
+                          <li>• Advanced roll mechanics & modifiers</li>
+                          <li>• Roll history with export functionality</li>
+                          <li>• Dark fantasy theme optimized for gaming</li>
+                          <li>• iPad support with larger interface</li>
+                        </ul>
+                      </div>
+                      <div className="pt-4 border-t border-amber-400/20">
+                        <a href="#" className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                          🍎 Get on App Store
+                        </a>
+                        <p className="text-xs text-amber-200/50 mt-2">Pending Apple Developer Approval</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+
+              <div className="mt-8 text-center">
+                <Card className="border-2 border-legendary/30 bg-slate-800/50 backdrop-blur-sm">
+                  <CardContent className="pt-6">
+                    <h3 className="text-2xl font-bold text-legendary mb-4">🏆 Why Choose Our Dice Apps?</h3>
+                    <div className="grid md:grid-cols-3 gap-6">
+                      <div className="text-center">
+                        <div className="text-3xl mb-2">⚡</div>
+                        <h4 className="font-semibold text-amber-300">Lightning Fast</h4>
+                        <p className="text-sm text-amber-200/60">Native performance with instant rolls</p>
+                      </div>
+                      <div className="text-center">
+                        <div className="text-3xl mb-2">🎯</div>
+                        <h4 className="font-semibold text-amber-300">D&D Optimized</h4>
+                        <p className="text-sm text-amber-200/60">Built specifically for tabletop RPG mechanics</p>
+                      </div>
+                      <div className="text-center">
+                        <div className="text-3xl mb-2">📊</div>
+                        <h4 className="font-semibold text-amber-300">Campaign Analytics</h4>
+                        <p className="text-sm text-amber-200/60">Track your epic rolls and statistics</p>
+                      </div>
+                    </div>
+                    <div className="mt-6">
+                      <p className="text-amber-200/70 italic">
+                        "Perfect companion apps for your D&D Character Sheets SaaS campaigns!"
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+
           </TabsContent>
         </Tabs>
       </div>
